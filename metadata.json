@@ -1,0 +1,6 @@
+{
+  "name": "Solace — Personal AI Companion",
+  "description": "A private, emotionally intelligent AI companion sanctuary for thoughtful conversation, voice reflection, mood growth, and offline play.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
