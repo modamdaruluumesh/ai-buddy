@@ -92,7 +92,7 @@ export function SanctuaryHome({
     if (!proactive.enabled || quietNow || proactiveDismissed || proactiveNote) return;
     if (typeof navigator !== 'undefined' && !navigator.onLine) return;
 
-    const sessionKey = `solace_proactive_${todayIsoDate()}_${timeCtx.period}`;
+    const sessionKey = `kinsvale_proactive_${todayIsoDate()}_${timeCtx.period}`;
     const cached = sessionStorage.getItem(sessionKey);
     if (cached) {
       try {

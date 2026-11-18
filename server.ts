@@ -150,11 +150,11 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Solace companion server running on http://0.0.0.0:${PORT}`);
+    console.log(`Kinsvale companion server running on http://0.0.0.0:${PORT}`);
   });
 }
 
 startServer().catch((err) => {
-  console.error('Failed to start Solace server:', err);
+  console.error('Failed to start Kinsvale server:', err);
   process.exit(1);
 });

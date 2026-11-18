@@ -1,8 +1,8 @@
 import type { SanctuaryVaultData, SecuritySettings } from '../types/companion';
 
-const STORAGE_PLAIN_KEY = 'solace_sanctuary_vault_v1';
-const STORAGE_ENC_KEY = 'solace_sanctuary_vault_enc_v1';
-const STORAGE_SECURITY_KEY = 'solace_security_settings_v1';
+const STORAGE_PLAIN_KEY = 'kinsvale_sanctuary_vault_v1';
+const STORAGE_ENC_KEY = 'kinsvale_sanctuary_vault_enc_v1';
+const STORAGE_SECURITY_KEY = 'kinsvale_security_settings_v1';
 
 export const DEFAULT_SECURITY_SETTINGS: SecuritySettings = {
   lockEnabled: false,
@@ -192,7 +192,7 @@ export async function registerBiometricPasskey(userName: string): Promise<string
     publicKey: {
       challenge,
       rp: {
-        name: 'Solace Companion Sanctuary',
+        name: 'Kinsvale Companion Sanctuary',
       },
       user: {
         id: userId,

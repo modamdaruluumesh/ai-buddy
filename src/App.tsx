@@ -325,7 +325,7 @@ export default function App() {
               onClick={() => setNav('sanctuary')}
               className="font-display text-2xl font-medium tracking-tight text-[#18191D] dark:text-[#EAE7E1] cursor-pointer whitespace-nowrap"
             >
-              Solace
+              Kinsvale
             </button>
             <p className="text-xs text-[#646975] dark:text-[#9CA0AA] mt-0.5">
               with {vault.profile.companionName}
@@ -385,7 +385,7 @@ export default function App() {
           onClick={() => setNav('sanctuary')}
           className="font-display text-xl font-medium text-[#18191D] dark:text-[#EAE7E1] whitespace-nowrap shrink-0 cursor-pointer"
         >
-          Solace
+          Kinsvale
         </button>
 
         <span className="text-xs font-medium text-[#646975] dark:text-[#9CA0AA] truncate">
